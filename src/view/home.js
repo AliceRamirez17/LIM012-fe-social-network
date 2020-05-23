@@ -17,7 +17,7 @@ export default (notes) => {
     <label id="menu-mobile" class="menu-mobile"></label>
     <nav class="nav-home hide">
       <ul class="menu-home">
-        <li class="btn-go-profile" id="btnProfile"><img class="pro-pic-small" src="${userPhoto || './img/profile-ico.png'}">Perfil</li>
+        <li class="btn-go-profile" id="btnProfile"><img class="pro-pic-small" src="${userPhoto}">Perfil</li>
         <li class="btn-go-out" id="btnSignOut"><img class="ico-sign-out" src="./img/sign-out.png">Cerrar sesión</li>
       </ul>
     </nav>
